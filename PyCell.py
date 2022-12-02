@@ -1,5 +1,5 @@
 #
-# This progam is using openpyxl, termcolor and
+# This progam is using openpyxl, termcolor and psExtreme.rls
 #
 
 import openpyxl
@@ -9,7 +9,7 @@ from termcolor import colored
 
 wb = Workbook
 
-#Strona główna
+#main
 def MainPage():
     main = colored("PyCell\n", 'green')
     print(main)
@@ -62,4 +62,8 @@ if userAction == "gen_new":
 if userAction == "textcell":
     textcell()
 
-
+#---------------------------------------------------
+# psExtreme.rls is a DMM PyCharm code qualifier    |
+#                                                  |
+# Quality: Formal                                  |
+#---------------------------------------------------
